@@ -1,0 +1,8 @@
+{
+  "name": "pulse",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
