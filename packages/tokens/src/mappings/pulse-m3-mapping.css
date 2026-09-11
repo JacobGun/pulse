@@ -1,0 +1,179 @@
+/**
+ * Maps Pulse design tokens to Material Design tokens
+ * required by the M3E component library.
+ *
+ * Remove when components consume Pulse tokens directly.
+ */
+
+:root {
+	
+
+  /* Primary */
+
+  --md-sys-color-primary:
+    var(--schemes-primary);
+
+  --md-sys-color-on-primary:
+    var(--schemes-on-primary);
+
+  --md-sys-color-primary-container:
+    var(--schemes-primary-container);
+
+  --md-sys-color-on-primary-container:
+    var(--schemes-on-primary-container);
+
+  /* Secondary */
+
+  --md-sys-color-secondary:
+    var(--schemes-secondary);
+
+  --md-sys-color-on-secondary:
+    var(--schemes-on-secondary);
+
+  --md-sys-color-secondary-container:
+    var(--schemes-secondary-container);
+
+  --md-sys-color-on-secondary-container:
+    var(--schemes-on-secondary-container);
+
+  /* Tertiary */
+
+  --md-sys-color-tertiary:
+    var(--schemes-tertiary);
+
+  --md-sys-color-on-tertiary:
+    var(--schemes-on-tertiary);
+
+  --md-sys-color-tertiary-container:
+    var(--schemes-tertiary-container);
+
+  --md-sys-color-on-tertiary-container:
+    var(--schemes-on-tertiary-container);
+
+  /* Error */
+
+  --md-sys-color-error:
+    var(--schemes-error);
+
+  --md-sys-color-on-error:
+    var(--schemes-on-error);
+
+  --md-sys-color-error-container:
+    var(--schemes-error-container);
+
+  --md-sys-color-on-error-container:
+    var(--schemes-on-error-container);
+
+  /* Surface */
+
+  --md-sys-color-background:
+    var(--schemes-background);
+
+  --md-sys-color-on-background:
+    var(--schemes-on-background);
+
+  --md-sys-color-surface:
+    var(--schemes-surface);
+
+  --md-sys-color-on-surface:
+    var(--schemes-on-surface);
+
+  --md-sys-color-surface-variant:
+    var(--schemes-surface-variant);
+
+  --md-sys-color-on-surface-variant:
+    var(--schemes-on-surface-variant);
+
+  /* Surface containers */
+
+  --md-sys-color-surface-container-lowest:
+    var(--schemes-surface-container-lowest);
+
+  --md-sys-color-surface-container-low:
+    var(--schemes-surface-container-low);
+
+  --md-sys-color-surface-container:
+    var(--schemes-surface-container);
+
+  --md-sys-color-surface-container-high:
+    var(--schemes-surface-container-high);
+
+  --md-sys-color-surface-container-highest:
+    var(--schemes-surface-container-highest);
+
+  /* Utilities */
+
+  --md-sys-color-outline:
+    var(--schemes-outline);
+
+  --md-sys-color-outline-variant:
+    var(--schemes-outline-variant);
+
+  --md-sys-color-surface-tint:
+    var(--schemes-surface-tint);
+
+  --md-sys-color-scrim:
+    var(--schemes-scrim);
+
+  --md-sys-color-shadow:
+    var(--schemes-shadow);
+
+  --md-sys-color-inverse-surface:
+    var(--schemes-inverse-surface);
+
+  --md-sys-color-inverse-on-surface:
+    var(--schemes-inverse-on-surface);
+
+  --md-sys-color-inverse-primary:
+    var(--schemes-inverse-primary);
+	
+	
+}
+
+
+/* M3E navigation-item compatibility */
+
+:root,
+[data-ascom-theme="pulse-light-default"],
+[data-ascom-theme="pulse-dark-default"],
+[data-ascom-theme="pulse-light-medium"],
+[data-ascom-theme="pulse-dark-medium"],
+[data-ascom-theme="pulse-light-high"],
+[data-ascom-theme="pulse-dark-high"] {
+  /* Inactive destination */
+
+  --m3e-nav-item-inactive-label-text-color:
+    var(--schemes-on-surface-variant);
+
+  --m3e-nav-item-inactive-icon-color:
+    var(--schemes-on-surface-variant);
+
+  --m3e-nav-item-inactive-hover-state-layer-color:
+    var(--schemes-on-surface);
+
+  --m3e-nav-item-inactive-focus-state-layer-color:
+    var(--schemes-on-surface);
+
+  --m3e-nav-item-inactive-pressed-state-layer-color:
+    var(--schemes-on-surface);
+
+  /* Selected destination */
+
+  --m3e-nav-item-active-container-color:
+    var(--schemes-secondary-container);
+
+  --m3e-nav-item-active-label-text-color:
+    var(--schemes-Secondary);
+
+  --m3e-nav-item-active-icon-color:
+    var(--schemes-on-secondary-container);
+
+  --m3e-nav-item-active-hover-state-layer-color:
+    var(--schemes-on-secondary-container);
+
+  --m3e-nav-item-active-focus-state-layer-color:
+    var(--schemes-on-secondary-container);
+
+  --m3e-nav-item-active-pressed-state-layer-color:
+    var(--schemes-on-secondary-container);
+}

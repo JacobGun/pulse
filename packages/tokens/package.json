@@ -1,5 +1,8 @@
 {
   "name": "@pulse/tokens",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "exports": {
+    ".": "./index.css"
+  }
 }

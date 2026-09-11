@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@m3e/react": "^2.7.11",
+    "@pulse/tokens": "workspace:*",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },
